@@ -1,16 +1,16 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Menu, X, FileText, GraduationCap, BookOpen, Briefcase, Award, Mail, Image as ImageIcon } from "lucide-react";
+import { Menu, X, FileText, GraduationCap, BookOpen, Briefcase, Award, Mail, Image as ImageIcon, Github } from "lucide-react";
 import { ThemeToggle } from "../shared/inputs/ThemeToggle";
 import { useLenis } from "lenis/react";
 
 const navLinks = [
   { label: "About", href: "#about", icon: FileText },
   { label: "Services", href: "#services", icon: GraduationCap },
+  { label: "AI Tools", href: "#github", icon: Github },
   { label: "Experience", href: "#experience", icon: Briefcase },
   { label: "Portfolio", href: "#portfolio", icon: ImageIcon },
-  { label: "Publications", href: "#publications", icon: BookOpen },
   { label: "Contact", href: "#contact", icon: Mail },
 ];
 

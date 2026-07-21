@@ -5,6 +5,7 @@ import NooraNavbar from "@/components/noora-portfolio/NooraNavbar";
 import NooraHero from "@/components/noora-portfolio/NooraHero";
 import NooraAbout from "@/components/noora-portfolio/NooraAbout";
 import NooraServices from "@/components/noora-portfolio/NooraServices";
+import NooraGitHubProjects from "@/components/noora-portfolio/NooraGitHubProjects";
 import NooraExperience from "@/components/noora-portfolio/NooraExperience";
 import NooraSkills from "@/components/noora-portfolio/NooraSkills";
 import NooraPortfolioSamples from "@/components/noora-portfolio/NooraPortfolio";
@@ -48,6 +49,7 @@ export default function HomePage() {
         <NooraHero />
         <NooraAbout />
         <NooraServices />
+        <NooraGitHubProjects />
         <NooraExperience />
         <NooraSkills />
         <NooraPortfolioSamples />
