@@ -1,312 +1,354 @@
-# SerisLab — AI Portfolio Generator for Developers
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-serislab.com-22c55e?style=flat-square)](https://serislab.com)
-[![Free to Use](https://img.shields.io/badge/Free-to%20use-22c55e?style=flat-square)](https://serislab.com)
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org)
-[![React](https://img.shields.io/badge/React-19-61dafb?style=flat-square&logo=react)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8?style=flat-square&logo=tailwindcss)](https://tailwindcss.com)
-[![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-ff0055?style=flat-square)](https://www.framer.com/motion/)
-
-> **We turn your GitHub or resume into a living portfolio that grows with you. Build once. Sync forever. Edit anytime. Powered by AI — refined by you.**
-
-**[→ Try it free at serislab.com](https://serislab.com)** · [View Showcase](https://serislab.com/showcase) · [Contact](https://serislab.com/contact)
+# 📘 How to Create Your Own Professional Portfolio Website
+### A Step-by-Step Beginner's Tutorial
 
 ---
 
-## What is SerisLab?
+## 🎯 What Are We Building?
 
-SerisLab is an AI-powered portfolio generator and career intelligence platform for tech professionals. It connects to your GitHub or reads your resume and automatically writes professional, impact-driven portfolio content — no blank pages, no stale profiles, no manual updates.
+A **professional portfolio website** for yourself — like a digital CV/resume that you can share with employers, clients, or collaborators. It will include:
 
-**In 3 minutes:** Connect GitHub (10 sec) → AI generates content (90 sec) → Publish (20 sec).
+- Your name, photo, and contact info
+- Your work experience and education
+- Your skills and services
+- Links to your publications and work samples
+- Your GitHub projects
+- A contact section
 
----
-
-## The Real Problems We Solve
-
-Most developer portfolios fail not because of talent — but because of three unavoidable human problems:
-
-### 1. No time
-Developers are too busy building to maintain their own story. Portfolios go stale for months — or years. SerisLab removes the maintenance burden entirely with GitHub auto-sync and AI-powered updates.
-
-### 2. Blank page paralysis
-Writing about yourself is hard. Turning raw GitHub code into compelling narratives is even harder. SerisLab's AI reads your project description and does the writing for you.
-
-### 3. Disconnected stories
-GitHub shows code. A resume shows history. Neither alone tells the full picture to a recruiter. SerisLab's Dual-Source feature merges both into one unified portfolio.
+By the end of this tutorial, you'll have a **live website on the internet** with a shareable link.
 
 ---
 
-## Before vs After SerisLab
+## 🧠 What You Need Before Starting
 
-| Before | After |
-|---|---|
-| "Built a React app." | "Built a real-time platform for 10,000+ users, reducing deployment time by 60% using WebSockets and Redis." |
-| Portfolio last updated 14 months ago. Skills section missing 6 technologies you now use daily. | Push a commit → portfolio updates automatically. Always current, zero manual effort. |
-| GitHub shows projects. Resume shows old job titles. Recruiters can't connect the dots. | Dual-source portfolio merges both — technical proof and career context, together. |
+| Requirement | Details |
+|------------|---------|
+| **A computer** | Windows, Mac, or Linux |
+| **Internet connection** | For downloading tools and uploading your site |
+| **An email account** | For creating accounts on various platforms |
+| **About 1–2 hours** | The first time takes a while; updates are much faster |
+| **Your CV/resume info** | Your experience, education, skills, etc. (have it handy) |
 
----
-
-## How It Works
-
-### Step 1 — Connect (10 seconds)
-Connect your GitHub account via OAuth, or upload your resume (PDF or DOCX). SerisLab reads your repositories, contributions, work history, and skills.
-
-### Step 2 — AI Generates Content (90 seconds)
-AI reads your code, commit messages, README files, or resume and writes:
-- Professional project descriptions with business impact
-- Skills summaries with context
-- Work experience narratives
-- A compelling bio
-
-### Step 3 — Publish (20 seconds)
-Pick a template, customize your style, publish instantly. Share your portfolio URL. GitHub portfolios auto-update with new projects — one setup, maintained forever.
+**No coding experience needed.** This tutorial walks you through everything.
 
 ---
 
-## Key Features
-
-### AI Content Generation
-Don't just say "Built a React app." SerisLab's AI reads your repositories description, then generates professional descriptions like: *"Built a real-time platform for 10,000+ users, reducing deployment time by 60% using WebSockets and Redis."* Same work. A much better story.
-
-### GitHub Auto-Sync
-Free plan: manual sync once daily (one click). Pro: real-time automatic sync. Push a commit → portfolio updates. No rebuilding required.
-
-### Dual-Source Portfolios
-Use GitHub for code proof, your resume for career history, or combine both. Perfect for:
-- Career switchers bridging old experience with new skills
-- Bootcamp graduates with limited GitHub activity
-- Senior developers wanting to show both technical depth and leadership
-- Non-developer tech roles (PM, Designer, DevOps) with hybrid skill sets
-
-### Business Impact Translation
-AI automatically extracts metrics from your code, READMEs, and resume: users served, revenue impact, time saved. Shows recruiters the value you create — not just the technologies you use.
-
-### Templates
-Multiple professional templates — all fully responsive, SEO-indexed, and editable without touching code:
-- **Minimal** — Clean, typographic, recruiter-friendly
-- **Modern** — Bold, contemporary, startup-ready
-- **Editorial** — Classic serif, senior dev / academic
-- **Creative** — Expressive, unique, design-forward
-
-### Portfolio Sections
-About · Hero · Skills · Experience · Projects · Education · Certifications · Contact · Achievements · Testimonials · Resume · Blog · Tools · Awards · Publications · Interests
-
-### Instant Preview
-Enter any GitHub username on the landing page to see a live AI-generated portfolio preview — before signing up.
-
-### Full Editorial Control
-AI generates a first draft — you can edit every word, reorder sections, add custom projects, or write your own copy anywhere.
-
-### Free Hosting + Custom Slug
-Every portfolio is hosted at `serislab.com/your-name`. No server setup, no deployment, no cost.
-
-### Portfolio Analytics
-See who views your portfolio, which projects get recruiter attention, where traffic comes from, and when companies check you out.
-
----
-
-## Who It's For
-
-| User | Pain Point | How SerisLab Helps |
-|---|---|---|
-| **Junior Developers (0–2 yrs)** | Resume thin, GitHub sparse | AI writes compelling narratives from limited data |
-| **Career Switchers** | Old career + new GitHub skills look disconnected | Dual-source merges both into one story |
-| **Experienced Devs (3–7 yrs)** | Too busy to maintain profiles | Auto-sync + AI handles updates |
-| **Bootcamp Grads** | Projects don't "sound" professional | AI adds business context to every project |
-| **Freelancers** | Need both technical proof + professional credibility | GitHub + Resume combined in one place |
-| **Senior Devs / Tech Leads** | GitHub doesn't show leadership or team skills | Resume work history fills the gap |
-| **Non-dev Tech Pros** | Don't have GitHub but need a tech portfolio | Resume-only mode works great |
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Framework | [Next.js 16](https://nextjs.org) — App Router, React Server Components |
-| Language | [TypeScript 5](https://www.typescriptlang.org) |
-| Styling | [Tailwind CSS 4](https://tailwindcss.com) |
-| Animations | [Framer Motion 12](https://www.framer.com/motion/) |
-| UI Components | [Radix UI](https://www.radix-ui.com) + [shadcn/ui](https://ui.shadcn.com) |
-| Client State | [Zustand 5](https://zustand-demo.pmnd.rs) |
-| Server State | [TanStack Query 5](https://tanstack.com/query) |
-| Forms | [React Hook Form 7](https://react-hook-form.com) + [Zod 4](https://zod.dev) |
-| Smooth Scroll | [Lenis](https://lenis.darkroom.engineering) |
-| HTTP Client | [Axios](https://axios-http.com) |
-| Carousel | [Embla Carousel](https://www.embla-carousel.com) |
-| Theming | [next-themes](https://github.com/pacocoursey/next-themes) |
-
----
-
-## Design System
-
-### Typography
-- **H1, H2:** Playfair Display — elegant serif, editorial, trustworthy
-- **H3–H6:** DM Sans — clean sans-serif, modern, readable
-- **Body:** Lora — readable serif, long-form content
-
-### Color Palette — Sage Green
-```css
---color-primary:     hsl(150, 45%, 28%);  /* Deep emerald green */
---color-sage:        hsl(150, 25%, 48%);  /* Sage accent */
---color-sage-light:  hsl(150, 20%, 92%);  /* Sage background tint */
-```
-
-Full token set in [`src/styles/app/landing.css`](src/styles/app/landing.css).
-
-### Animation Approach
-- Framer Motion with `fadeInUp`, `staggerContainer`, `fadeInScale` variants
-- Smooth easing: `[0.22, 1, 0.36, 1]` (custom cubic-bezier)
-- Lenis for momentum-based smooth scroll
-- All animations respect `prefers-reduced-motion`
-
----
-
-## Project Structure
+## 📋 Overview of the Steps
 
 ```
-serislab/
-├── src/
-│   ├── app/
-│   │   ├── page.tsx              # Landing page (main entry)
-│   │   ├── layout.tsx            # Root layout (fonts, providers, SEO)
-│   │   └── showcase/             # Community portfolio gallery
-│   │
-│   ├── components/
-│   │   ├── landing-page/         # All landing page sections
-│   │   │   ├── Navbar.tsx
-│   │   │   ├── HeroSection.tsx       # GitHub/resume input + instant preview
-│   │   │   ├── HowItWorksSection.tsx
-│   │   │   ├── FeaturesSection.tsx   # Bento grid feature cards
-│   │   │   ├── ShowcaseSection.tsx   # Live community portfolios
-│   │   │   ├── BetaPricingSection.tsx
-│   │   │   ├── FAQSection.tsx
-│   │   │   ├── ContactSection.tsx
-│   │   │   ├── FinalCTASection.tsx
-│   │   │   ├── Footer.tsx
-│   │   │   └── instant-preview/      # Live preview components
-│   │   │       ├── MacBookMockup.tsx
-│   │   │       ├── PortfolioContent.tsx
-│   │   │       ├── PreviewLoadingState.tsx
-│   │   │       └── PreviewErrorState.tsx
-│   │   ├── shared/               # Reusable cross-page components
-│   │   └── ui/                   # shadcn/ui components
-│   │
-│   ├── hooks/                    # TanStack Query data fetching hooks
-│   │   ├── useShowcase.ts        # Showcase portfolio infinite scroll
-│   │   ├── usePortfolios.ts      # Portfolio preview (instant preview)
-│   │   ├── useTemplates.ts       # Template metadata
-│   │   └── useContact.ts         # Contact form submission
-│   │
-│   ├── services/                 # Axios API service layer
-│   │   ├── common.service.ts     # Waitlist, general endpoints
-│   │   └── contact.service.ts    # Contact form
-│   │
-│   ├── stores/
-│   │   └── waitlist.store.ts     # Zustand store for waitlist modal
-│   │
-│   ├── providers/
-│   │   ├── ThemeProvider.tsx     # Dark/light mode
-│   │   └── ReactQueryProvider.tsx
-│   │
-│   ├── data/
-│   │   ├── landing-content.ts    # All landing page copy and config
-│   │   └── beta-pricing-data.ts  # Pricing plans config
-│   │
-│   ├── styles/
-│   │   ├── globals.css           # Base CSS + Tailwind setup
-│   │   └── app/landing.css       # Sage palette + typography tokens
-│   │
-│   └── types/                    # TypeScript type definitions
-│
-├── public/
-│   ├── landing/                  # Landing page images
-│   ├── og/                       # Open Graph images
-│   └── logo.svg
-│
-├── .env.example                  # Environment variable template
-└── README.md
+Step 1  — Install Visual Studio Code (a text editor)
+Step 2  — Install Node.js (the engine that runs the website)
+Step 3  — Download the portfolio template (the starter files)
+Step 4  — Open the template in VS Code
+Step 5  — Create a GitHub account (to store your code online)
+Step 6  — Use OpenCode AI to customize the portfolio with your info
+Step 7  — Upload your code to GitHub
+Step 8  — Deploy your website on Vercel (makes it live on the internet)
+Step 9  — Share your link!
 ```
 
 ---
 
-## Getting Started
+## 🔧 Step 1: Install Visual Studio Code (VS Code)
 
-### Prerequisites
-- Node.js 20+
-- npm, pnpm, or yarn
+Visual Studio Code is a program that lets you see and edit the files of your website.
 
-### Run locally
+1. Open your web browser and go to: **https://code.visualstudio.com**
+2. Click the blue **Download for Windows** button (or Mac/Linux if applicable)
+3. Once downloaded, open the installer file
+4. Follow the installation steps — just keep clicking "Next" with all the default settings
+5. When it's done, open VS Code from your Start Menu / Applications folder
+
+---
+
+## ⚙️ Step 2: Install Node.js
+
+Node.js is the engine that will build your website files.
+
+1. Go to: **https://nodejs.org**
+2. You'll see two download buttons. Click the one on the left that says **LTS** (Long Term Support — the stable version)
+3. Open the downloaded installer file
+4. Click through the installation — keep all default settings, just click "Next" then "Install"
+5. Once done, restart your computer (important!)
+
+---
+
+## 📦 Step 3: Download the Portfolio Template
+
+The template is a folder containing all the files needed to build your portfolio website. We'll use the files from the "SerisLab" project (which is what we used in this tutorial).
+
+**Option A: Download directly (easier)**
+1. Go to: https://github.com/noora-noureldin2000/noora-portfolio
+2. Click the green **Code** button
+3. Click **Download ZIP**
+4. Extract the ZIP file to a folder on your Desktop called `my-portfolio`
+
+**Option B: If you're starting fresh with the original SerisLab template**
+1. Ask OpenCode AI to provide you with the starter files
+2. Or contact the tutorial author for a clean template
+
+---
+
+## 📂 Step 4: Open the Template in VS Code
+
+1. Open **Visual Studio Code**
+2. Click **File** → **Open Folder** (top-left menu)
+3. Navigate to the `my-portfolio` folder you extracted, select it, and click **Select Folder**
+4. You'll see the file list on the left side of VS Code
+
+---
+
+## 🌐 Step 5: Create a GitHub Account
+
+GitHub is a website that stores your code online. Think of it like Google Drive but specifically for code.
+
+1. Go to: **https://github.com/signup**
+2. Enter your email address, create a password, and choose a username
+3. Verify your email address (they'll send you a code)
+4. That's it — you now have a GitHub account
+
+**Important:** Remember your GitHub username AND your password — you'll need them later.
+
+---
+
+## 🤖 Step 6: Customize Your Portfolio Using OpenCode AI
+
+This is where the magic happens. OpenCode is an AI assistant that can edit your portfolio files for you. Instead of manually editing code, you tell it what you want and it does the work.
+
+### 6.1 — Get OpenCode AI Access
+
+At the time of writing, OpenCode was accessed via a specific tool interface. The exact method depends on how you're running it (check the documentation at opencode.ai). You'll typically:
+- Open a terminal (Terminal → New Terminal in VS Code)
+- Type a command to start OpenCode
+- Then chat with it to make changes
+
+### 6.2 — What to Tell OpenCode
+
+OpenCode works best when you give it clear instructions. Here's a template for what to say:
+
+> *"I want to create a portfolio website for myself. Please customize the SerisLab template with my information:"*
+>
+> **MY NAME:** [Your full name]
+> **MY TITLE:** [Your job title, e.g., "Medical Writer | Clinical Pharmacy Instructor"]
+> **MY LOCATION:** [City, Country]
+> **MY PHONE:** [Your phone number]
+> **MY EMAIL:** [Your email address]
+> **MY LINKEDIN:** [Your LinkedIn profile URL]
+> **ABOUT ME:** [2–3 paragraphs about yourself]
+> **MY SKILLS:** [List your skills grouped by category]
+> **MY WORK EXPERIENCE:** [For each job: job title, company name, dates, and 3–5 bullet points of what you did]
+> **MY EDUCATION:** [Your degrees, schools, and graduation years]
+> **MY PUBLICATIONS:** [Any papers or articles you've published]
+> **MY SERVICES:** [What you offer — writing, tutoring, data analysis, etc.]
+
+### 6.3 — What OpenCode Will Do
+
+OpenCode will:
+1. Create a file called `noora-portfolio.ts` that contains ALL your information
+2. Create section components (Hero, About, Services, Experience, Skills, Portfolio, Contact, Footer)
+3. Update the main page to include all sections
+4. Update the website's title and description for search engines
+
+### 6.4 — Review the Changes
+
+After OpenCode finishes:
+1. In VS Code, look at the file list on the left
+2. Find the file called `src/data/noora-portfolio.ts` — this is where your info lives
+3. Double-click it to open it
+4. Check that all your information is correct
+5. If something is wrong, tell OpenCode: *"Please fix [the error] in the portfolio data file"*
+
+---
+
+## ☁️ Step 7: Upload Your Code to GitHub
+
+Now you'll put your code on GitHub so it's stored safely online.
+
+### 7.1 — Create a New Repository on GitHub
+
+A "repository" (or "repo") is like a folder for your project on GitHub.
+
+1. Go to **https://github.com/new** while logged into GitHub
+2. In the **Repository name** field, type: `my-portfolio`
+3. Leave the description blank (optional)
+4. Choose **Public** (so anyone can see it — this is important for the free hosting)
+5. **DO NOT** check "Add a README file" or any other options — we want an empty repo
+6. Click the green **Create repository** button
+
+You'll now see a page with commands. Keep this page open.
+
+### 7.2 — Connect Your Local Folder to GitHub
+
+Now we'll use the terminal (command prompt) inside VS Code:
+
+1. In VS Code, click **Terminal** → **New Terminal** (top menu)
+2. A panel will open at the bottom of VS Code
+3. Type these commands one at a time, pressing Enter after each:
 
 ```bash
-git clone https://github.com/serislab/serislab.git
-cd serislab
-cp .env.example .env.local
-npm install
-npm run dev
+git init
+git add -A
+git commit -m "Initial commit — my portfolio"
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+You'll see lots of messages — that's normal.
 
-### Environment Variables
+### 7.3 — Link to GitHub and Upload
+
+On your GitHub page (from step 7.1), you'll see a section titled **"…or push an existing repository from the command line"**. It will have commands that look like this:
 
 ```bash
-# .env.example
-NEXT_PUBLIC_APP_URL=https://serislab.com
+git remote add origin https://github.com/YOUR-USERNAME/my-portfolio.git
+git branch -M main
+git push -u origin main
 ```
 
-The live API powers the instant preview and portfolio showcase. Everything works out of the box pointing to the production API.
+Copy and paste each of these commands one at a time into the VS Code terminal (press Enter after each).
 
-### Build
+**Troubleshooting:** If it asks for a username and password:
+- Username: Your GitHub username
+- Password: You need to use a "Personal Access Token" instead of your regular password
+  - Go to: https://github.com/settings/tokens/new
+  - Check the box next to **repo** (full control)
+  - Scroll down and click **Generate token**
+  - Copy the long string of letters and numbers
+  - Paste it as the password when prompted
 
+✅ **Done!** Your code is now on GitHub at: `https://github.com/YOUR-USERNAME/my-portfolio`
+
+---
+
+## 🚀 Step 8: Deploy Your Website on Vercel (Make It Live)
+
+Vercel is a service that takes your code from GitHub and turns it into a live website that anyone can visit on the internet.
+
+### 8.1 — Create a Vercel Account
+
+1. Go to: **https://vercel.com/signup**
+2. Click **Continue with GitHub**
+3. It will ask you to authorize Vercel to access your GitHub account — click **Authorize**
+4. Follow the remaining steps to complete signup
+
+### 8.2 — Import Your Repository
+
+1. Once logged into Vercel, click **Add New** → **Project**
+2. You'll see a list of your GitHub repositories. Find `my-portfolio` and click **Import**
+3. The settings page will appear. **Don't change anything** — the default settings are correct
+4. Scroll down and click **Deploy**
+
+### 8.3 — Wait for Deployment
+
+Vercel will now build and deploy your website. This takes about 1–2 minutes. You'll see a progress screen.
+
+When it's done, you'll see a big **Congratulations!** message with a URL like:
+```
+https://my-portfolio-abc123.vercel.app
+```
+
+Click **Continue to Dashboard**.
+
+### 8.4 — Get Your Clean Shareable URL
+
+1. On the project dashboard, click **Settings** (top tab)
+2. Scroll down to the **Domains** section
+3. You'll see a URL like `my-portfolio-xyz.vercel.app` — this is your permanent link
+4. Copy this URL
+
+⚠️ **Important:** At this point, your website is LIVE on the internet! Anyone with the link can see it.
+
+---
+
+## 🔗 Step 9: Share Your Portfolio
+
+You can now share your portfolio link with anyone:
+
+- **Employers** — add it to your CV and job applications
+- **Clients** — send it when pitching your services
+- **LinkedIn** — add it to your LinkedIn profile's "Featured" section
+- **Email signature** — include the link in your email
+
+---
+
+## 🔄 How to Make Updates Later
+
+When you want to change something on your portfolio (add a new job, update your skills, fix a typo):
+
+**Using OpenCode AI:**
+1. Open VS Code and open your `my-portfolio` folder
+2. Start OpenCode
+3. Tell it: *"Update my portfolio: [describe what changed]"*
+4. OpenCode will modify the files for you
+
+**Manually:**
+1. Open `src/data/noora-portfolio.ts` in VS Code
+2. Find the section you want to change (e.g., `experience:` for work history)
+3. Edit the text
+4. Save the file (Ctrl+S)
+
+**Publishing updates:**
+1. In VS Code terminal, type:
 ```bash
-npm run build
-npm run start
+git add -A
+git commit -m "Updated experience section"
+git push
+```
+
+That's it! Vercel will automatically detect the change and update your live website within a minute.
+
+---
+
+## 🧹 Quick Reference: Key Files
+
+| File | What It Contains |
+|------|-----------------|
+| `src/data/noora-portfolio.ts` | **ALL your information** — name, experience, skills, education, publications, etc. Edit this to update your portfolio |
+| `src/components/noora-portfolio/` | Each section of the page (Hero, About, Services, etc.) |
+| `src/app/page.tsx` | The main page that assembles all sections together |
+| `src/app/layout.tsx` | The page title and description that shows up in Google search results |
+
+---
+
+## ❓ Frequently Asked Questions
+
+**Q: Do I need to pay for anything?**
+A: No. GitHub is free. Vercel has a free tier that handles this type of website perfectly. The template we used is free.
+
+**Q: Can I use my own domain name (like myname.com)?**
+A: Yes! You can buy a domain from Google Domains or Namecheap, then add it in Vercel's Settings → Domains section. Vercel provides SSL (the padlock icon) for free.
+
+**Q: How long does the deployment take?**
+A: About 2 minutes the first time. Updates take about 30 seconds.
+
+**Q: What if I break something?**
+A: The original template is always safe on GitHub. You can ask OpenCode to fix it, or delete the folder and start again from step 3.
+
+**Q: Can I see what the website looks like before publishing?**
+A: Yes. In VS Code terminal, type `npm run dev` and open `http://localhost:3000` in your browser. You'll see a live preview that updates as you make changes.
+
+---
+
+## 📚 Summary Checklist
+
+```
+[ ] VS Code installed
+[ ] Node.js installed
+[ ] Template files downloaded and opened in VS Code
+[ ] GitHub account created
+[ ] Portfolio customized using OpenCode AI
+[ ] Code uploaded to GitHub
+[ ] Website deployed on Vercel
+[ ] Shareable link obtained and tested
+[ ] Link added to LinkedIn, CV, email signature
 ```
 
 ---
 
-## FAQ
+## 🆘 Need Help?
 
-**How do I create a portfolio from my GitHub profile?**
-Connect via GitHub OAuth (10 seconds). SerisLab pulls your repos, contributions, and READMEs — AI generates professional descriptions. Pick a template, publish. Done in under 3 minutes.
-
-**Does it work without a GitHub account?**
-Yes. Upload your resume (PDF or DOCX). SerisLab parses your work history, skills, and achievements and generates portfolio content from that. GitHub is optional.
-
-**Can I use both GitHub and my resume together?**
-Yes — this is SerisLab's core Dual-Source feature. GitHub provides code proof; your resume provides career history. AI merges both into a unified portfolio.
-
-**Can I edit the AI-generated content?**
-Full control. AI generates a first draft — you can edit every word, reorder sections, add custom projects, or write your own copy anywhere.
-
-**Is my GitHub data safe?**
-Yes. OAuth only — we never see your password. Read-only access to public repo data. Revoke access anytime from GitHub settings.
-
-**How does auto-sync work?**
-Free plan: manual sync once daily (one click). Pro: real-time sync — push a commit, portfolio updates automatically. No rebuilding required.
+If you get stuck at any step:
+1. **Re-read the step carefully** — each instruction is specific
+2. **Check your spelling** — one wrong letter can break a command
+3. **Ask OpenCode for help** — try: *"I'm stuck at [step]. Here's what happened: [describe the error]. What should I do?"*
 
 ---
 
-## Contributing
-
-Found a bug or have a UI improvement? PRs are welcome.
-
-1. Fork the repo
-2. Create a branch: `git checkout -b fix/your-fix`
-3. Push and open a PR
-
-For product feedback or feature requests, use [serislab.com/contact](https://serislab.com/contact).
-
----
-
-<div align="center">
-
-**[Try SerisLab Free →](https://serislab.com)**
-
-*AI-powered portfolio generator · GitHub + Resume · No coding required*
-
-*Build once. Sync forever. Edit anytime.*
-
-</div>
+*Tutorial created for Noora Noureldin's portfolio project — July 2026*
