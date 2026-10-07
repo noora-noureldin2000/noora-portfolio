@@ -63,6 +63,19 @@ I bring a modern, highly efficient approach to scientific writing and data synth
 
   experience: [
     {
+      title: "Freelance Medical Writer",
+      company: "McCann Health",
+      type: "Contract",
+      location: "Dubai, United Arab Emirates (Remote)",
+      period: "Sep 2026 – Present",
+      highlights: [
+        "Designing structured data extraction frameworks to meticulously categorize clinical efficacy, safety profiles, and vaccine-specific data across six core vaccines (Influenza, Pneumococcal, Shingrix, COVID-19, HPV, and RSV)",
+        "Synthesizing local healthcare insights regarding patient behavior, the patient journey, and vaccine access to ensure the final recommendations are highly country-specific to Hong Kong",
+        "Drafting the final consensus manuscript, adapting the overarching principles of the EULAR 2019 guidelines, and refining clinical statements following a formal Delphi consensus voting process",
+      ],
+      skills: ["Medical Writing", "Data Extraction", "Consensus Manuscript"],
+    },
+    {
       title: "Head of Public Relations",
       company: "Naggar Analytics",
       type: "Contract",
