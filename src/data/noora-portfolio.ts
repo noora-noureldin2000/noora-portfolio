@@ -212,6 +212,16 @@ I bring a modern, highly efficient approach to scientific writing and data synth
 
   publications: [
     {
+      authors: "Khazali MH, Alghzawi HM, Ainer MW, Abdelghaffar MR, Elghareab AM, Ghaly MH, Noureldin N, Mohamed AW, Elshafie MA",
+      title: "Efficacy and Safety of Reproxalap 0.25% Ophthalmic Solution in Dry Eye Disease: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+      journal: "Clinical Ophthalmology",
+      year: 2026,
+      volume: "20",
+      pages: "640064",
+      doi: "https://doi.org/10.2147/OPTH.S640064",
+      quartile: "Q2",
+    },
+    {
       authors: "Noora Ibrahim, Maram Eid, Layal Radwan, Nihal Ibrahim, Nazanin Ajam, Sabrina Ait Gacem",
       title: "Investigating Medication Errors in Ajman Pharmacies: A Cross-Sectional Study in the United Arab Emirates",
       journal: "Research Journal of Pharmacy and Technology",
